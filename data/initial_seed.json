@@ -1,0 +1,440 @@
+{
+  "users": [
+    {
+      "id": "user_lucas",
+      "name": "Lucas Lunguenda",
+      "username": "lucaslunguenda",
+      "email": "lucaslunguenda@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      "coverPhoto": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&w=1200&q=80",
+      "bio": "Software engineer & tech enthusiast. Building real-time apps and exploring modern web architectures.",
+      "location": "Luanda / Remote",
+      "workplace": "Frontend Architect @ TechLabs",
+      "joinedAt": "January 2024",
+      "isOnline": true,
+      "friendsCount": 342
+    },
+    {
+      "id": "user_elena",
+      "name": "Elena Vance",
+      "username": "elenavance",
+      "email": "elena@example.com",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80",
+      "coverPhoto": "https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=1200&q=80",
+      "bio": "Mobile UI/UX Designer & coffee lover ☕. Constantly redesigning the future of human-computer interaction.",
+      "location": "San Francisco, CA",
+      "workplace": "Design Lead @ StudioPixel",
+      "joinedAt": "March 2024",
+      "isOnline": true,
+      "friendsCount": 521
+    },
+    {
+      "id": "user_david",
+      "name": "David Chen",
+      "username": "davidchen",
+      "email": "david@example.com",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "coverPhoto": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bio": "Landscape & wildlife filmmaker 🎬. Wandering around the globe chasing golden hour lights.",
+      "location": "Tokyo, Japan",
+      "workplace": "Independent Filmmaker",
+      "joinedAt": "November 2023",
+      "isOnline": false,
+      "friendsCount": 890
+    },
+    {
+      "id": "user_sarah",
+      "name": "Sarah Jenkins",
+      "username": "sarahj",
+      "email": "sarah@example.com",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+      "coverPhoto": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
+      "bio": "Deep learning researcher & open-source contributor. Trying to teach neural networks to appreciate art.",
+      "location": "London, UK",
+      "workplace": "AI Researcher @ DeepMind Horizons",
+      "joinedAt": "February 2024",
+      "isOnline": true,
+      "friendsCount": 412
+    },
+    {
+      "id": "user_marcus",
+      "name": "Marcus Brody",
+      "username": "marcusb",
+      "email": "marcus@example.com",
+      "avatar": "",
+      "coverPhoto": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1200&q=80",
+      "bio": "Full-stack builder, trail runner, and amateur sourdough baker. Keep it simple.",
+      "location": "Berlin, Germany",
+      "workplace": "Senior Engineer @ CloudScale",
+      "joinedAt": "April 2024",
+      "isOnline": false,
+      "friendsCount": 215
+    }
+  ],
+  "posts": [
+    {
+      "id": "post_1",
+      "authorId": "user_elena",
+      "authorName": "Elena Vance",
+      "authorUsername": "elenavance",
+      "authorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80",
+      "content": "Just deployed the new responsive design system for LLite! We focused on ultra-crisp typography, touch-friendly 48px hit areas for Android phones, and smooth transitions. What do you all think of the clean blue & white look? 🚀✨",
+      "mediaType": "photo",
+      "mediaUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      "likes": [
+        "user_lucas",
+        "user_david",
+        "user_sarah"
+      ],
+      "commentsCount": 3,
+      "sharesCount": 12,
+      "privacy": "public",
+      "createdAt": "2026-10-27T05:30:00Z"
+    },
+    {
+      "id": "post_2",
+      "authorId": "user_david",
+      "authorName": "David Chen",
+      "authorUsername": "davidchen",
+      "authorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "content": "Drone footage from early morning over the alpine ridge. The morning mist clearing up just as the sun broke the horizon was pure magic. Turn up your volume and enjoy! 🏔️☀️",
+      "mediaType": "video",
+      "mediaUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "videoThumbnail": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80",
+      "videoDuration": "0:15",
+      "likes": [
+        "user_lucas",
+        "user_elena",
+        "user_marcus",
+        "user_sarah"
+      ],
+      "commentsCount": 5,
+      "sharesCount": 28,
+      "privacy": "public",
+      "createdAt": "2026-10-27T04:15:00Z"
+    },
+    {
+      "id": "post_3",
+      "authorId": "user_sarah",
+      "authorName": "Sarah Jenkins",
+      "authorUsername": "sarahj",
+      "authorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+      "content": "Exciting milestone: our paper on low-latency edge inference was just accepted for publication! Massive thanks to all collaborators and mentors who gave feedback along the way. 📚💡 #AI #Research",
+      "mediaType": "photo",
+      "mediaUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80",
+      "likes": [
+        "user_lucas",
+        "user_marcus"
+      ],
+      "commentsCount": 2,
+      "sharesCount": 5,
+      "privacy": "public",
+      "createdAt": "2026-10-26T21:40:00Z"
+    },
+    {
+      "id": "post_4",
+      "authorId": "user_lucas",
+      "authorName": "Lucas Lunguenda",
+      "authorUsername": "lucaslunguenda",
+      "authorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      "content": "Welcome everyone to LLite! We designed this space for seamless real-time conversations, fast photo & video sharing, and genuine connections with friends without algorithmic noise. Feel free to publish a post, test out real-time messaging, or explore video watch feeds!",
+      "mediaType": "none",
+      "likes": [
+        "user_elena",
+        "user_david",
+        "user_sarah",
+        "user_marcus"
+      ],
+      "commentsCount": 4,
+      "sharesCount": 19,
+      "privacy": "public",
+      "createdAt": "2026-10-26T18:00:00Z"
+    },
+    {
+      "id": "post_5",
+      "authorId": "user_david",
+      "authorName": "David Chen",
+      "authorUsername": "davidchen",
+      "authorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "content": "A quick test reel exploring the coastlines in 4K. Testing the HTML5 video playback controls on mobile devices! 🌊",
+      "mediaType": "video",
+      "mediaUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+      "videoThumbnail": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "videoDuration": "0:15",
+      "likes": [
+        "user_sarah",
+        "user_marcus"
+      ],
+      "commentsCount": 1,
+      "sharesCount": 8,
+      "privacy": "public",
+      "createdAt": "2026-10-26T12:00:00Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "comm_1",
+      "postId": "post_1",
+      "authorId": "user_lucas",
+      "authorName": "Lucas Lunguenda",
+      "authorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      "content": "The contrast and touch responsiveness on mobile feel fantastic Elena! Great work on the rounded cards.",
+      "createdAt": "2026-10-27T05:45:00Z",
+      "likes": [
+        "user_elena"
+      ]
+    },
+    {
+      "id": "comm_2",
+      "postId": "post_1",
+      "authorId": "user_david",
+      "authorName": "David Chen",
+      "authorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "content": "Loving the clean blue branding. Very readable outdoors in daylight.",
+      "createdAt": "2026-10-27T06:00:00Z",
+      "likes": []
+    },
+    {
+      "id": "comm_3",
+      "postId": "post_1",
+      "authorId": "user_sarah",
+      "authorName": "Sarah Jenkins",
+      "authorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+      "content": "Smooth animations as well! Looking forward to more updates.",
+      "createdAt": "2026-10-27T06:12:00Z",
+      "likes": [
+        "user_elena",
+        "user_lucas"
+      ]
+    },
+    {
+      "id": "comm_4",
+      "postId": "post_2",
+      "authorId": "user_lucas",
+      "authorName": "Lucas Lunguenda",
+      "authorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      "content": "Breathtaking clarity David! What camera setup did you use for this flight?",
+      "createdAt": "2026-10-27T04:30:00Z",
+      "likes": [
+        "user_david"
+      ]
+    },
+    {
+      "id": "comm_5",
+      "postId": "post_2",
+      "authorId": "user_david",
+      "authorName": "David Chen",
+      "authorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "content": "@Lucas Lunguenda Shot on Mavic 3 Pro with ND16 filter at 4K 60fps!",
+      "createdAt": "2026-10-27T04:40:00Z",
+      "likes": [
+        "user_lucas"
+      ]
+    },
+    {
+      "id": "comm_6",
+      "postId": "post_4",
+      "authorId": "user_elena",
+      "authorName": "Elena Vance",
+      "authorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80",
+      "content": "Thrilled to be here! Let us build an awesome community together 🎉",
+      "createdAt": "2026-10-26T18:20:00Z",
+      "likes": [
+        "user_lucas"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "id": "story_1",
+      "authorId": "user_elena",
+      "authorName": "Elena Vance",
+      "authorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80",
+      "mediaUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80",
+      "createdAt": "2 hours ago",
+      "seen": false
+    },
+    {
+      "id": "story_2",
+      "authorId": "user_david",
+      "authorName": "David Chen",
+      "authorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "mediaUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80",
+      "createdAt": "4 hours ago",
+      "seen": false
+    },
+    {
+      "id": "story_3",
+      "authorId": "user_sarah",
+      "authorName": "Sarah Jenkins",
+      "authorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+      "mediaUrl": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80",
+      "createdAt": "5 hours ago",
+      "seen": true
+    },
+    {
+      "id": "story_4",
+      "authorId": "user_marcus",
+      "authorName": "Marcus Brody",
+      "authorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80",
+      "mediaUrl": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=600&q=80",
+      "createdAt": "7 hours ago",
+      "seen": true
+    }
+  ],
+  "friendships": [
+    {
+      "id": "fr_1",
+      "requesterId": "user_elena",
+      "receiverId": "user_lucas",
+      "status": "accepted",
+      "createdAt": "2026-10-15T10:00:00Z",
+      "updatedAt": "2026-10-15T11:00:00Z"
+    },
+    {
+      "id": "fr_2",
+      "requesterId": "user_david",
+      "receiverId": "user_lucas",
+      "status": "accepted",
+      "createdAt": "2026-10-18T14:00:00Z",
+      "updatedAt": "2026-10-18T15:30:00Z"
+    },
+    {
+      "id": "fr_3",
+      "requesterId": "user_sarah",
+      "receiverId": "user_lucas",
+      "status": "pending",
+      "createdAt": "2026-10-27T02:00:00Z",
+      "updatedAt": "2026-10-27T02:00:00Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_lucas_elena",
+      "participantIds": [
+        "user_lucas",
+        "user_elena"
+      ],
+      "lastMessage": "Let me know how the mobile layout looks on your Android phone!",
+      "lastMessageTime": "2026-10-27T06:20:00Z",
+      "lastSenderId": "user_elena",
+      "unreadCount": {
+        "user_lucas": 1,
+        "user_elena": 0
+      },
+      "updatedAt": "2026-10-27T06:20:00Z"
+    },
+    {
+      "id": "conv_lucas_david",
+      "participantIds": [
+        "user_lucas",
+        "user_david"
+      ],
+      "lastMessage": "Thanks for sharing the video! The player controls work like a charm.",
+      "lastMessageTime": "2026-10-27T04:45:00Z",
+      "lastSenderId": "user_lucas",
+      "unreadCount": {
+        "user_lucas": 0,
+        "user_david": 0
+      },
+      "updatedAt": "2026-10-27T04:45:00Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_1",
+      "conversationId": "conv_lucas_elena",
+      "senderId": "user_lucas",
+      "senderName": "Lucas Lunguenda",
+      "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      "text": "Hey Elena! Just testing out the messaging feature on LLite.",
+      "createdAt": "2026-10-27T06:10:00Z",
+      "read": true
+    },
+    {
+      "id": "msg_2",
+      "conversationId": "conv_lucas_elena",
+      "senderId": "user_elena",
+      "senderName": "Elena Vance",
+      "senderAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80",
+      "text": "Hey Lucas! Working great here. Delivery is instantaneous and the chat UI is super clean.",
+      "createdAt": "2026-10-27T06:15:00Z",
+      "read": true
+    },
+    {
+      "id": "msg_3",
+      "conversationId": "conv_lucas_elena",
+      "senderId": "user_elena",
+      "senderName": "Elena Vance",
+      "senderAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80",
+      "text": "Let me know how the mobile layout looks on your Android phone!",
+      "createdAt": "2026-10-27T06:20:00Z",
+      "read": false
+    },
+    {
+      "id": "msg_4",
+      "conversationId": "conv_lucas_david",
+      "senderId": "user_david",
+      "senderName": "David Chen",
+      "senderAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "text": "Hey Lucas, did you check out the 4K mountain clip I posted?",
+      "createdAt": "2026-10-27T04:35:00Z",
+      "read": true
+    },
+    {
+      "id": "msg_5",
+      "conversationId": "conv_lucas_david",
+      "senderId": "user_lucas",
+      "senderName": "Lucas Lunguenda",
+      "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      "text": "Thanks for sharing the video! The player controls work like a charm.",
+      "createdAt": "2026-10-27T04:45:00Z",
+      "read": true
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1",
+      "recipientId": "user_lucas",
+      "senderId": "user_sarah",
+      "senderName": "Sarah Jenkins",
+      "senderAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+      "type": "friend_request",
+      "targetId": "user_sarah",
+      "text": "sent you a friend request.",
+      "read": false,
+      "createdAt": "2026-10-27T02:00:00Z"
+    },
+    {
+      "id": "notif_2",
+      "recipientId": "user_lucas",
+      "senderId": "user_elena",
+      "senderName": "Elena Vance",
+      "senderAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80",
+      "type": "like",
+      "targetId": "post_4",
+      "text": "liked your post: \"Welcome everyone to LLite!...\"",
+      "read": false,
+      "createdAt": "2026-10-26T18:05:00Z"
+    },
+    {
+      "id": "notif_3",
+      "recipientId": "user_lucas",
+      "senderId": "user_david",
+      "senderName": "David Chen",
+      "senderAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "type": "comment",
+      "targetId": "post_2",
+      "text": "replied to your comment: \"@Lucas Lunguenda Shot on Mavic 3...\"",
+      "read": true,
+      "createdAt": "2026-10-27T04:41:00Z"
+    }
+  ],
+  "passwords": {
+    "user_lucas": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "user_elena": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "user_david": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "user_sarah": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "user_marcus": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "LLite Social Network",
+  "description": "A modern, lightweight social networking platform with feed, real-time messaging, profiles, friends, and media sharing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
